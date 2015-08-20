@@ -1,0 +1,75 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+humanparser is a very small package that parses full (human) names into their component parts
+
+The following functions are implemented:
+
+- `parse_name`:	Parse a "human" name into components
+- `parse_names`:	Parse a character vector of names into a data frame
+
+### News
+
+- Version 0.0.0.999 released
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/humanparser")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, error=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r}
+library(humanparser)
+
+# current verison
+packageVersion("humanparser")
+
+# just one
+
+parse_name("John Smith Jr.")
+
+# or a bunch of 'em
+
+full_names <- c("David Regan", "Izaque Iuzuru Nagata", 
+                "Christian Schmit de la Breli", "Peter Doyle", "Hans R.Bruetsch", 
+                "Marcus Reichel", "Per-Axel Koch", "Louis Van der Walt", 
+                "Mario Adamek", "Ugur Tozsekerli", "Judit Ludvai" )
+
+parse_names(full_names)
+
+```
+
+### Test Results
+
+```{r}
+library(humanparser)
+library(testthat)
+
+date()
+
+test_dir("tests/")
+```
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
+By participating in this project you agree to abide by its terms.

@@ -1,8 +1,10 @@
 Package: humanparser
-Title: What the Package Does (one line, title case)
+Title: Decompose Full (Human) Names Into Component Parts
 Version: 0.0.0.9000
 Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.2)
+Description: Takes one or more full, "human" names and returns them in component parts (first, last, middle)
+Depends: R (>= 3.0.0)
 License: MIT + file LICENSE
 LazyData: true
+Suggests: testthat
+Imports: dplyr, V8
