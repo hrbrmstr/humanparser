@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-humanparser is a very small package that parses full (human) names into their component parts
+humanparser is a very small package that parses full (human) names into their component parts. Uses code from the node.js [humanparser](https://github.com/chovy/humanparser) module.
 
 The following functions are implemented:
 

@@ -1,8 +1,13 @@
 Package: humanparser
 Title: Decompose Full (Human) Names Into Component Parts
 Version: 0.0.0.9000
-Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))
-Description: Takes one or more full, "human" names and returns them in component parts (first, last, middle)
+Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")),
+             person("Anthony", "Ettinger", email = "anthony@chovy.com", role = c("aut", "ctb"))
+    )
+Maintainer: Bob Rudis <bob@rudis.net>
+Description: Takes one or more full, "human" names and returns them in component
+    parts (first, last, middle). Uses code from the node.js 'humanparser'
+    module <https://github.com/chovy/humanparser>
 Depends: R (>= 3.0.0)
 License: MIT + file LICENSE
 LazyData: true
