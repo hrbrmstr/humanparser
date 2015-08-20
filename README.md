@@ -1,4 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+Made with <img src="v8.png"/>
+
 humanparser is a very small package that parses full (human) names into their component parts. Uses code from the node.js [humanparser](https://github.com/chovy/humanparser) module.
 
 The following functions are implemented:
@@ -72,7 +74,7 @@ library(humanparser)
 library(testthat)
 
 date()
-#> [1] "Thu Aug 20 14:54:12 2015"
+#> [1] "Thu Aug 20 15:04:52 2015"
 
 test_dir("tests/")
 #> testthat results ========================================================================================================
