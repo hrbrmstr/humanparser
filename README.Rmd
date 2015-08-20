@@ -23,6 +23,7 @@ The following functions are implemented:
 
 ### News
 
+- Version 0.0.1.999 released - tests
 - Version 0.0.0.999 released
 
 ### Installation

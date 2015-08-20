@@ -8,6 +8,7 @@ The following functions are implemented:
 
 ### News
 
+-   Version 0.0.1.999 released - tests
 -   Version 0.0.0.999 released
 
 ### Installation
@@ -23,7 +24,7 @@ library(humanparser)
 
 # current verison
 packageVersion("humanparser")
-#> [1] '0.0.0.9000'
+#> [1] '0.0.1.9000'
 
 # just one
 
@@ -71,11 +72,11 @@ library(humanparser)
 library(testthat)
 
 date()
-#> [1] "Thu Aug 20 14:45:04 2015"
+#> [1] "Thu Aug 20 14:54:12 2015"
 
 test_dir("tests/")
 #> testthat results ========================================================================================================
-#> OK: 0 SKIPPED: 0 FAILED: 0
+#> OK: 2 SKIPPED: 0 FAILED: 0
 #> 
 #> DONE
 ```

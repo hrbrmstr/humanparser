@@ -1,6 +1,6 @@
 Package: humanparser
 Title: Decompose Full (Human) Names Into Component Parts
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")),
              person("Anthony", "Ettinger", email = "anthony@chovy.com", role = c("aut", "ctb"))
     )
